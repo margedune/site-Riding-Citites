@@ -38,8 +38,8 @@ header {
 header img,
 header .headerTextContent {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 1448px;
+    height: 880px;
 	top: 0;
 	left: 0;
 }
@@ -163,9 +163,29 @@ p {
 	text-decoration: none;
 }
 
-.buttonDrakGreyColor {
-	color: var(--drak-grey-color);
-	border-color: var(--drak-grey-color);
+.button:hover
+{
+	border: 3px solid #CD487B;
+	color: #CD487B;
+	background: #FFF;
+	width: 442px;
+	height: 73px;
+	font-size: 16px;
+}
+
+.buttonDownload
+{
+	border-radius: 38px;
+	border-width: 2px;
+	color: #E44444;
+	text-align: center;
+	font-family: Archivo;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	width: 413px;
+	height: 73px;
 }
 
 .buttonMainColor {
@@ -182,7 +202,46 @@ p {
 	border-radius: 39px;
 }
 
-.buttonHighlight:hover {
-	font-weight: 800;
-	border-width: 3px;
+.section-membre-fondateur {
+    width: 1440px;
+    height: 596px;
+	background: linear-gradient(45deg, #E44444 0%, #CD487C 77.13%);
+}
+
+/*.section-membre-fondateur-commun {
+	display: flex;
+    justify-content: center;
+	margin: unset;
+	color:white;	
+}*/
+
+.section-membre-fondateur h2 {
+	color: white;
+}
+
+.section-membre-fondateur article {
+	height: 262px;
+    width: 194px;
+}
+
+.section-membre-fondateur h4 {
+	color: #FFF;
+	text-align: center;
+	font-family: Archivo;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 5px;
+}
+
+.section-membre-fondateur p {
+	color: #FFF;
+	text-align: center;
+	font-family: Archivo;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: unset;
 }
